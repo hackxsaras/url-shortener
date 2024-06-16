@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #000;
+    color:#fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#shorten-url-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#result, #urls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.url-container {
+    display:inline-block;
+    max-width:min(400px, 90vw);
+    text-align:left;
+    background:#fff1;
+    border-radius:20px;
+    padding:25px;
+    margin:20px;
+}
+.url-container > div {
+    line-height:50px;
+}
+.url-container  .label{
+    min-width: 100px;
+}
+.url-container input {
+    background: #fff2;
+    outline:none;
+    border:2px solid #fff1;
+    color:#fff;
+}
+.url-container .stylish-inline-button {
+    flex:1;
+    text-align:center;
+    background: #fff1;
+    color:#fff;
+    margin:3px;
+    border-radius:3px;
+    cursor: pointer;
+}
+.stylish-inline-button:nth-child(1){
+    background:#0a5;
+}
+.stylish-inline-button:nth-child(2){
+    background:#f22;
+}
+
+
+
+
+
+/* --------general----------- */
+.flex, .flexc {
+    display: flex;
+}
+.flexc { flex-direction: column; }
+
+.flex-1 { flex:1;}
