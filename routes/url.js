@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const auth = require('../middleware/auth');
-const Url = require('../models/Url');
+const Url = require('../models/url');
 const shortid = require('shortid');
 
 router.get('/user', auth, async (req, res) => {
